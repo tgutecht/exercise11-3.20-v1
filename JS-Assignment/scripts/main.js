@@ -28,9 +28,9 @@ document.getElementById("p1_fullNameLength").innerHTML = firstName.length + last
     // Part 2
     var emailAddress = getValue('emailAddress');
     console.log(emailAddress);
-    document.getElementById('p2_email').innerHTML = emailAddress;
+        document.getElementById('p2_email').innerHTML = emailAddress;
     var emailAddressCheck;
-    if (emailAddress.charAt(0)> -1)
+    if (emailAddress.charAt("@")> -1)
       {
         emailAddressCheck = true;
       } else {
